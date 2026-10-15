@@ -1,0 +1,15 @@
+[server]
+headless = true
+address = "localhost"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+
+[theme.light]
+primaryColor = "#1d5bbf"
+
+[theme.dark]
+primaryColor = "#6ea3f2"

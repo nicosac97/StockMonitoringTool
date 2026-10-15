@@ -1,0 +1,27 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Personal data: portfolio database, scan log, any exports
+app/data/
+*.db
+*.sqlite
+*.log
+stock-ledger-*.json
+stock-ledger-*.csv
+
+# Secrets
+.env
+.env.*
+*.key
+
+# Editors / OS / local tool settings
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+.DS_Store
